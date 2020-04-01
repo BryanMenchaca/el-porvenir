@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'Garamondo';
+	src: url(../fonts/otf/AGaramondPro-Italic.otf);
+}
+
+/*************************
+ESTILOS DE "RESERVACIONES"
+*************************/
+
+.head {
+	background: url('../img/reservar.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 302px;
+	width: 100%;
+}
+
+.general {
+	margin: 50px 200px;
+	display: flex;
+}
+
+.general .description {
+	display: block;
+	min-width: 720px;
+	padding: 20px;
+}
+
+.description section div {
+	display: flex;
+}
+
+aside {
+	padding: 10px 30px;
+	text-align: center;
+}
+
+aside h4 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 100;
+	color: #3C3C3C;
+}
+
+aside #line {
+	height: 1px;
+	background: #8D8D8D;
+	margin: 20px 10px;
+}
+
+aside i {
+	margin: 8px;
+	color: #3C3C3C;
+	font-size: 25px;
+}
+
+aside #logo-tripadvisor {
+	width: 170px;
+}
+
+label {
+	font-family: none;
+	font-weight: 100;
+	color: #3C3C3C;
+}
+
+input {
+	width: 100%;
+	display: block;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #3C3C3C;
+	border-radius: 4px;
+}
+
+#comentarios {
+	display: block;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #3C3C3C;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#enviar {
+	width: 25%;
+	background: #161616;
+	color: #FFF;
+	font-size: 18px;
+	border: 0;
+}

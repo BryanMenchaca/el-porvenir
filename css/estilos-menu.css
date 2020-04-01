@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Garamondo';
+	src: url(../fonts/otf/AGaramondPro-Italic.otf);
+}
+
+/******************
+ESTILOS DE "COCINA"
+******************/
+
+.head {
+	background: url('../img/nuestro-menu.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+.general {
+	margin: 50px 200px;
+	display: flex;
+	padding: 30px;
+}
+
+#menu-izquierdo, #menu-derecho {
+	width: 50%;
+	margin: 0px 20px;
+}
+
+#detail {
+	width: 100%;
+	margin: 20px 0px;
+}
+
+h2, h3, h6 {
+	font-family: none;
+	font-weight: 100;
+}
+
+.platillos {
+	margin: 50px 0px;
+}
+
+.platillo {
+	margin: 20px 0px;
+}

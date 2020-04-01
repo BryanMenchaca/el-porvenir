@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Garamondo';
+	src: url(../fonts/otf/AGaramondPro-Italic.otf);
+}
+
+
+/********************
+ESTILOS DE "CONTACTO"
+********************/
+
+.head {
+	background: url('../img/contacto18.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 295px;
+	width: 100%;
+}
+
+.general {
+	margin: 30px 120px;
+	padding: 20px;
+	display: flex;
+}
+
+.box-left1 {
+	width: 50%;
+	padding: 40px;
+}
+
+.box-left1 h3, .box-right1 h4 {
+	font-family: 'Garamondo';
+	color: #3C3C3C;
+}
+
+.box-left1 p {
+	line-height: 1.5;
+	font-family: none;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #3C3C3C;
+}
+
+.box-right1 {
+	display: block;
+	width: 50%;
+	padding: 40px;
+}
+
+.box-right1 h4 {
+	font-weight: 100;
+	color: #3C3C3C;
+}
+
+label {
+	font-family: none;
+	color: #3C3C3C;
+}
+
+input {
+	width: 100%;
+	display: block;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #3C3C3C;
+	border-radius: 4px;
+}
+
+#mensaje {
+	display: block;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #3C3C3C;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#enviar {
+	width: 25%;
+	background: #161616;
+	color: #FFF;
+	font-size: 18px;
+	border: 0;
+}
+
+#formulario {
+	width: 100%;
+	margin-top: 20px;
+}
+
+span {
+	margin-top: 20px;
+	padding: 10px;
+	color: #fff;
+	font-size: 24px;
+	background: #161616;
+	border-radius: 50px;
+}

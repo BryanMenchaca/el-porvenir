@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Garamondo';
+	src: url(../fonts/otf/AGaramondPro-Italic.otf);
+}
+
+/**************************
+ESTILOS DE "SUG. DEL CHEFF"
+**************************/
+
+.head {
+	background: url('../img/sug-cheff.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 291px;
+	width: 100%;
+}
+
+.general {
+	margin: 50px 200px;
+	display: flex;
+}
+
+.general .description {
+	display: block;
+	min-width: 720px;
+}
+
+.description img {
+	width: 100%;
+}
+
+.description section div {
+	display: flex;
+}
+
+.description section div #retrato {
+	width: auto;
+	height: 130px;
+}
+
+aside {
+	margin-top: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+aside h4 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 100;
+	color: #3C3C3C;
+}
+
+aside #line {
+	height: 1px;
+	background: #8D8D8D;
+	margin: 20px 10px;
+}
+
+aside i {
+	margin: 8px;
+	color: #3C3C3C;
+	font-size: 25px;
+}
+
+aside #logo-tripadvisor {
+	width: 170px;
+}
+
+.description img {
+	width: auto;
+	height: 300px;
+	margin: 10px;
+}

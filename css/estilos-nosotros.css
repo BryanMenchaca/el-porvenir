@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Garamondo';
+	src: url(../fonts/otf/AGaramondPro-Italic.otf);
+}
+
+/********************
+ESTILOS DE "NOSOTROS"
+********************/
+
+.head {
+	background: url('../img/quien-somos18.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 307px;
+	width: 100%;
+	margin: 0;
+}
+
+.general {
+	margin: 10px 120px;
+
+	display: flex;
+}
+
+.general .description {
+	display: block;
+}
+
+section {
+	margin: 40px 50px;
+}
+
+#focus {
+	padding: 5px 20px;
+	border-left: 5px solid #c59d5f;
+}
+
+#focus p {
+	font-family: none;
+	font-size: 25px;
+	color: #c59d5f;
+}
+
+section #text {
+	font-family: none;
+	color: #3C3C3C;
+	line-height: 1.5;
+}
+
+aside {
+	padding: 10px;
+	text-align: center;
+}
+
+aside img {
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+
+aside h3 {
+	font-family: 'Garamondo';
+	color: #3C3C3C;
+}
+
+aside h4 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 100;
+	color: #3C3C3C;
+}
+
+aside #line {
+	height: 1px;
+	background: #ECBD00;
+	margin: 20px 10px;
+}
+
+aside i {
+	margin: 8px;
+	color: #3C3C3C;
+	font-size: 25px;
+}
+
+aside #logo-tripadvisor {
+	width: 170px;
+}
